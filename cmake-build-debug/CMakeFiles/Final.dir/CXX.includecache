@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/MyPrograms/Final/src/CharacterBuilder.h
+iostream
+-
+vector
+-
+
+/cygdrive/c/MyPrograms/Final/src/Game.h
+CharacterBuilder.h
+/cygdrive/c/MyPrograms/Final/src/CharacterBuilder.h
+
+/cygdrive/c/MyPrograms/Final/src/UserGUI.cpp
+UserGUI.h
+/cygdrive/c/MyPrograms/Final/src/UserGUI.h
+
+/cygdrive/c/MyPrograms/Final/src/UserGUI.h
+CharacterBuilder.h
+/cygdrive/c/MyPrograms/Final/src/CharacterBuilder.h
+Game.h
+/cygdrive/c/MyPrograms/Final/src/Game.h
+
